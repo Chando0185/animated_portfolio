@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(Gilroy-Light.otf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: #fff;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: black;
+}
+
+#nav-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+}
+
+#nav-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav-third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav-third button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#nav-first img{
+    width: 60px;
+    height: 60px;
+}
+
+#content{
+    height: calc(100% - 90px);
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+    background-color: #000;
+    text-align: center;
+    padding: 100px 80px;
+}
+
+#left h1{
+    font-size: 75px;
+    font-weight: 900;
+    font-family:'Gilroy';
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px white;
+
+}
+
+#left p{
+    font-size: 20px;
+}
+
+#left h1 span{
+    color: crimson;
+    text-shadow: 0 0 10px #ff1c65;
+}
+
+#right{
+    height: 100px;
+    width: 50%;
+    background-color: #000;
+}
+
+#right img{
+    height: 100%;
+    position: absolute;
+    left: 59%;
+    bottom: 0;
+}
+
+#left button{
+    margin-top: 40px;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    background-color: crimson;
+    border: none;
+}
+
+
+#cursor{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(220, 20, 60, 0.559);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 199;
+}
+
+#cursor-blur{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(220, 20, 60, 0.559);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 199;
+    filter: blur(30px);
+}
+
+
+
+
+
+
+
+
+
+
